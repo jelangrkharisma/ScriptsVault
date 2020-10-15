@@ -112,10 +112,12 @@ alias zshconfig="code ~/.zshrc"
 alias redis-cli='~/redis-stable/src/redis-cli'
 
 
+
 # incase you forgot to sudo
 alias please='sudo $(fc -ln -1)'
-# alias tree='tree -d -L 2'
-
+alias tree='tree -d -L 2'
+alias startPixel2='setsid emulator -avd pixel2'
+alias startpixel2='setsid emulator -avd pixel2'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -124,6 +126,9 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+export JAVA_HOME=/snap/android-studio/current/android-studio/jre
+
 
 # Disable auto correct
 setopt nocorrectall; setopt correct
