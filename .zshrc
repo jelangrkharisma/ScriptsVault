@@ -117,7 +117,7 @@ alias redis-cli='~/redis-stable/src/redis-cli'
 alias please='sudo $(fc -ln -1)'
 alias tree='tree -d -L 2'
 alias startPixel2='setsid emulator -avd pixel2'
-alias startpixel2='setsid emulator -avd pixel2'
+alias reconnectRN='adb reverse tcp:8081 tcp:8081'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
